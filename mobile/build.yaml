@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "lib/data/api"
+          output_folder: "lib/data/api/generated"
+          nullable_fields: false
+      chopper_generator:
+        options:
+          header: ""
+
+      json_serializable:
+        options:
+          field_rename: pascal

@@ -1,0 +1,9 @@
+include: package:leancode_lint/analysis_options.yaml
+
+analyzer:
+  errors:
+    todo: ignore
+  exclude:
+    - "**.g.dart"
+    - lib/l10n/*
+    - lib/data/api/generated/*

@@ -1,0 +1,25 @@
+{
+    "@@locale": "en",
+    "common_AppName": "ADHD Project",
+    "pomodoro_Timer_Title": "Pomodoro Timer",
+    "pomodoro_Timer_SessionOutOf": "{session} of {sessionsCount} sessions",
+    "@pomodoro_Timer_SessionOutOf": {
+        "placeholders": {
+            "session": {
+                "type": "int"
+            },
+            "sessionsCount": {
+                "type": "int"
+            }
+        }
+    },
+    "pomodoro_Option_Pomodoro": "Pomodoro",
+    "pomodoro_Option_ShortBreak": "Short break",
+    "pomodoro_Option_LongBreak": "Long break",
+    "backgroundNoise_Title": "White noise",
+    "bottomNavBar_home": "Home",
+    "bottomNavBar_tasks": "Tasks",
+    "bottomNavBar_calendar": "Calendar",
+    "bottomNavBar_profile": "Profile",
+    "tasks_Title": "Tasks"
+}
